@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>Crunch Funnel</title>
+</head>
+<body>
+<form action="{{ url_for('location_search') }}" method=post>
+	<dl>
+		<dt>Zip Code:
+                <dd><input type=text size=10 name=zip_code>
+	<dl>
+		<dt>Email:
+		<dd><input type=text size=40 name=email>
+	</dl>
+	<dl>
+		<dt>Phone Number:
+		<dd><input type=text size=40 name=phone>
+	</dl>
+	<dl>
+		<dd><input type=submit name=action value=Email>
+		<dd><input type=submit name=action value=Text>
+	</dl>
+</form>
+</body>
+</html>

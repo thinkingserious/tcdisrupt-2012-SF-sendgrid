@@ -1,0 +1,4 @@
+.elasticbeanstalk/
+config.ini
+*.swp
+*.pyc
